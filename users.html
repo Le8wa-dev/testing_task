@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <title>Users</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+  <main class="main">
+
+    <div class="grid">
+
+      <div class="users">
+
+        <form class="form">
+          
+        </form>
+      
+      </div>
+
+      <form class="form form-main">
+        <div class="form-row">
+
+          <div class="input-box">
+            <input type="text" name="name" class="input-box__input name-input" placeholder=" " autoComplete="off" />
+            <label for="name" class="input-box__label">
+              Name
+            </label>
+            <label class="input-box__error">
+              Field is required
+            </label>
+          </div>
+
+        </div>
+        <div class="form-row">
+
+          <div class="input-box">
+            <input type="tel" name="phone" class="input-box__input phone-input" placeholder=" " autoComplete="off" />
+            <label for="phone" class="input-box__label">
+              Phone
+            </label>
+            <label class="input-box__error">
+              Phone incorrect
+            </label>
+          </div>
+
+        </div>
+        <div class="form-row">
+          <button class="button blue form-btn disabled">
+            Submit
+          </button>
+        </div>
+      </form>
+
+    </div>
+
+  </main>
+
+  <div class="loader">
+    <div class="loader__icon"></div>
+  </div>
+
+  <script src="./users.js"></script>
+
+</body>
+
+</html>
