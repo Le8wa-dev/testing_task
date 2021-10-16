@@ -56,10 +56,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function drawStar(cx, cy, spikes, outerRadius, innerRadius, color) {
-    var rot = Math.PI / 2 * 3;
-    var x = cx;
-    var y = cy;
-    var step = Math.PI / spikes;
+    const rot = Math.PI / 2 * 3;
+    const x = cx;
+    const y = cy;
+    const step = Math.PI / spikes;
 
     contextTop.beginPath();
     contextTop.moveTo(cx, cy - outerRadius)
